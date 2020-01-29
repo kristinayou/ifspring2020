@@ -1,0 +1,140 @@
+header{
+	font-family: bely-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 50px;
+	color: black;
+}
+
+h1{
+	font-family: helvetica;
+	font-size: 20px;
+	color: grey;
+	padding-top: 20px;
+}
+
+.font{
+	font-family: helvetica;
+	font-size: 16px;
+	color: grey;
+	font-weight: bold;
+}
+
+.italic{
+	font-family: bely,serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	color: black;
+
+}
+
+.regular{
+	font-family: bely,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+}
+
+.spaced{
+	font-family: bely,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+	letter-spacing: .3em;
+}
+
+.condensed{
+	font-family: bely,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+	letter-spacing: -.06em
+}
+
+.underline{
+	font-family: bely,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+	text-decoration: underline;
+}
+
+.linethrough{
+	font-family: bely,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+	text-decoration:line-through;
+}
+
+.overline{
+	font-family: bely,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+	text-decoration: overline;
+}
+
+.uppercase{
+	font-family: bely,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+	text-transform: uppercase;
+
+}
+
+.lowercase{
+	font-family: bely,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+	text-transform: lowercase;
+}
+
+.capitalize{
+	font-family: bely,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+	text-transform: capitalize;
+}
+
+.bold{
+	font-family: bely,serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+}
+
+.display{
+	font-family: bely-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+}
+body{
+	margin: 40px;
+	font-family:helvetica;
+	font-size: 15px;
+	color: grey;
+}
+
+#first{
+	font-family: helvetica;
+	font-size: 15px;
+	color: grey;
+}
+
