@@ -1,0 +1,124 @@
+body{
+	font-family: 'odisseia', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	font-size: 12px;
+	padding: 30px;
+	text-align: center;
+	background-repeat: repeat-y;
+}
+
+
+
+header{
+	font-family: 'Faster One', cursive;
+	color: red;
+	font-size: 60px;
+	animation:blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText{
+	0%{     color: red;    }
+    49%{    color: red; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: red;    }
+}
+
+h1{
+	font-family:'odisseia',sans-serif;
+	font-size: 20px;
+	color:yellow;
+	padding-bottom: 50px
+}
+
+
+
+#first:hover{
+	color: yellow;
+}
+
+#first{
+	padding-top: 50px
+}
+
+#second:hover{
+	color: yellow;
+}
+
+#third:hover{
+	color: yellow;
+}
+
+#fourth:hover{
+	color: yellow;
+}
+
+#fifth:hover{
+	color: yellow;
+}
+
+#sixth:hover{
+	color: yellow;
+}
+
+#sixth{
+	padding-bottom: 70px
+}
+
+.fly {
+	pointer-events: none;
+}
+
+.fly > * {
+
+        animation: fly 50s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-120%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+
+
+
+@keyframes fly {
+
+	98.001%, 0% {
+                display: block;
+		transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
+	}
+
+	15% {
+		transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
+	}
+
+	15.001%, 18% {
+		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
+	}
+
+	40% {
+		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
+	}
+
+	40.001%, 43% {
+		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
+	}
+
+	65% {
+		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
+	}
+
+	65.001%, 68% {
+		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
+	}
+
+	95% {
+		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+	}
+}
+
+
