@@ -51,6 +51,10 @@ img {
 	text-align: center;
 }
 
+strong{
+	color: #b60000;
+}
+
 .recipe{
 	margin: 0;
 	padding: 0;
