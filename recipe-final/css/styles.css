@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+	padding: 30px;
+	width: auto;
+	color:black;
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-image: linear-gradient(to bottom,white,#b6d2bc);
+	line-height: 1.8;
+	text-align: center;
+	margin-bottom: 500px;
+
+
+}
+
+header{
+	font-family: barricada-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px; 
+	color: black;
+	background-image: url("../img/pancakes.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 600px;
+	margin-top: 0;
+	text-align: center;
+}
+
+
+section{
+	align-content: center;
+	padding:0;
+}
+
+h1{
+	font-size: 50px;
+	line-height: 1.5;
+	padding-top: 100px;
+	font-family: barricada-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #b60000;
+	text-shadow: 3px 2px grey;
+
+}
+
+
+img {
+	width: 100%;
+	border: 2px solid #b60000;
+	margin-top: 75px;
+	margin-bottom: 10px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+strong{
+	color: #b60000;
+}
+
+.footer{
+	box-sizing: border-box;
+	background-color: #b60000;
+	width: 100%;
+	height: 100px;
+	color: white;
+	margin-top: 80px;
+	font-family: barricada-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px; 
+	border-radius: 25px;
+	margin-bottom: 50px;
+	padding-top: 30px;
+}
+
+.recipe{
+	margin: 0;
+	padding: 0;
+
+}
+
+.title {
+  	margin: 20px;
+  	margin-top: 50px;
+  	padding: 20px;
+  	padding-top:15px;
+  	font-family: barricada-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	border: 3px solid #b60000;
+	box-sizing: border-box;
+	border-radius: 25px;
+	color: #b60000;
+	height: 70px;
+
+}
+
+.nutrition{
+	color:#b60000;
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 10px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+
+ol{
+	text-align: center;
+	padding-left:10px;
+
+}
+
+a{
+	color: white;
+}
