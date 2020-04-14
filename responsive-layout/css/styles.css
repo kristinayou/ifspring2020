@@ -1,0 +1,104 @@
+body{
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin:0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 800px;
+	color: #4599f4;
+	max-width: 960px;
+	font-size: 16px;
+	margin-top: 100px;
+	line-height: 1.5;
+}
+
+
+
+img{
+	width: 100%;
+}
+
+h3{
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+
+}
+
+h2{
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+}
+
+h1{
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 38px;
+
+
+}
+
+.caption{
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+}
+
+.bodycopy{
+	margin-top: 30px;
+	display: block;
+	float: left;
+	width: 60%;
+	margin-bottom: 100px;
+}
+
+.maintext{
+	margin-top: 45px;
+}
+
+.links{
+	margin-top: 30px;
+	list-style-type: none;
+	display: block;
+	box-sizing: border-box;
+	float: right;
+	width: 35%;
+	background-color: #4599f4;
+	color: white;
+	padding: 20px;
+
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+@media (max-width: 815px) {
+	body{
+		width: 80%;
+	}
+
+	.bodycopy{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.links{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	h1{
+		font-size: 30px;
+	}
+}
