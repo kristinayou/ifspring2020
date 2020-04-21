@@ -6,7 +6,7 @@ body{
 	margin-right: auto;
 	display: block;
 	width: 960px;
-	height: 6000px;
+	height: 2000px;
 
 }
 
@@ -58,9 +58,10 @@ h3{
 }
 
 img{
-	height: 300px;
+	height:200px;
 	margin-bottom:20px;
 	margin-top: 40px;
+	border-radius: 50%;
 }
 
 hr{
@@ -72,6 +73,7 @@ hr{
 li{
 	list-style-type: none;
 	text-decoration: underline;
+	display: block;
 }
 
 
