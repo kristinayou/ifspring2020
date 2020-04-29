@@ -122,7 +122,6 @@ li{
 header{
 	width: 100%;
 	display: inline-block;
-	float: left;
 	margin:0;
 	margin-bottom: 70px;
 	margin-top: 0;
@@ -143,4 +142,21 @@ a{
 
 a:hover{
 	color: #b60000;
+}
+
+@media (max-width: 815px) {
+	body{
+		width: 80%;
+	}
+
+	.bodycontainer{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.nav{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
 }
