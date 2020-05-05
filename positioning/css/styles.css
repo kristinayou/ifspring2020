@@ -1,0 +1,40 @@
+#first aside{
+	float: right;
+}
+
+#second aside{
+	bottom:0;
+	right: 0;
+	position: absolute;
+}
+
+section{
+	position: relative;
+}
+
+#third aside{
+	background-color: green;
+	right:0;
+	top: 0;
+	position:fixed;
+}
+
+#one{
+	background-color: red;
+	top:50%;
+	left: 50%;
+	z-index: 30;
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+
+#two{
+	background-color: black;
+	top:calc(50% + 10px);
+	left: calc(50% + 10px);
+	z-index: 20;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+
